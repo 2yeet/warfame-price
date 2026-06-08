@@ -47,6 +47,6 @@ right = (x2+x3)/2
 width = right-left
 height = bottom - top
 
-print('Suggest replacing "window.geometry("1400x100+100+50")" in capture.py with:')
-print('"window.geometry("1400x100+'+ str((s_width-width)/2) + '+50)"')
+print('Suggest replacing line 12 in capture.py with:')
+print('g = ' + str([left,top,right,bottom]))
 
