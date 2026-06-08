@@ -9,6 +9,7 @@ import concurrent.futures
 from PIL import ImageGrab
 
 reader = easyocr.Reader(['en'])
+g = [755,770,2450,880]
 
 def popup(a,t):
     window = tk.Tk()
